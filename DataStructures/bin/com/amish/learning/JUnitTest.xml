@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JUnitTest>
+	<UnitSubSystem name="payment">
+		<TestCase name="org.emrsn.wc.payments.plugins.orbitalchase.OrbitalChasePaymentHelper">
+			<input key="amount" value="100.00" />
+		</TestCase>
+	</UnitSubSystem>
+	<UnitSubSystem name="order">
+		<TestCase name="org.emrsn.commerce.autosol.order.util.OrderItemHelper">
+		</TestCase>
+	</UnitSubSystem>
+</JUnitTest>
